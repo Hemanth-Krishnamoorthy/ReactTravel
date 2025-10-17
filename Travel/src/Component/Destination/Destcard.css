@@ -1,0 +1,65 @@
+.Destcard {
+  /* A clean white background makes the images stand out */
+  background-color: #ffffff;
+  max-width: 200px;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px; /* Increased padding for better spacing */
+  text-align: center;
+
+  /* Adds a subtle shadow for a modern "lifted" effect */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+
+  /* Smooth transition for the hover effect */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Add a hover effect to make the card interactive */
+.Destcard:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.Destcard img {
+  max-width: 100%; /* Make image fill the card width */
+  height: 140px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures image covers the area without distortion */
+
+  /* Match the card's border radius at the top */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Make the heading and paragraph text cleaner */
+.Destcard h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Destcard p {
+    font-size: 14px;
+    color: #666;
+    height: 60px; /* Set a fixed height to align buttons */
+}
+
+
+/* --- NEW --- Style the call-to-action button */
+.Destcard button {
+  /* An energetic coral color encourages clicks */
+  background-color: #FF7F50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.Destcard button:hover {
+  /* A slightly darker shade for feedback on hover */
+  background-color: #e56b3b;
+}

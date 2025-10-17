@@ -1,0 +1,78 @@
+/* Overall page setup */
+body {
+  /* A soft, neutral background feels more modern and less distracting */
+  background-color: #f4f7f6;
+  font-family: Arial, sans-serif;
+}
+
+/* Login form box */
+.Form {
+  background-color: white;
+  width: 300px;
+  /* Using 'auto' for left/right margin centers the box horizontally */
+  margin: 150px auto;
+  padding: 40px;
+  border-radius: 10px;
+  /* A softer, more diffused shadow for a modern "lifted" effect */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.Form h2 {
+  margin-bottom: 30px;
+  /* Dark gray is easier on the eyes than pure black */
+  color: #333;
+  text-align: center;
+}
+
+/* Each input section */
+.Comp {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* Label text */
+.Element {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555; /* A slightly softer gray for the labels */
+}
+
+/* Input boxes */
+.Box {
+  width: 95%;
+  padding: 10px; /* A little more padding for easier clicking/tapping */
+  border: 1px solid #ccc; /* Lighter border color */
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus */
+}
+
+/* Style for when a user clicks into an input box */
+.Box:focus {
+    border-color: #007BFF; /* Highlights the active field with your primary blue */
+    outline: none; /* Removes the default browser outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Login button */
+.Loginbutton {
+  width: 100%;
+  padding: 12px; /* Making the button slightly taller */
+  /* A confident, trustworthy blue that's common in modern UI */
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Slightly larger text */
+  font-weight: bold;
+  /* This makes the color change on hover feel smooth */
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.Loginbutton:hover {
+  /* A slightly darker shade provides clear feedback on hover */
+  background-color: #0056b3;
+}

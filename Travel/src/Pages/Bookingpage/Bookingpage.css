@@ -1,0 +1,66 @@
+.booking-container {
+  /* A clean white background keeps the focus entirely on the form */
+  background-color: #ffffff;
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px; /* A bit more padding */
+  border-radius: 10px;
+  /* A softer, more modern shadow */
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.booking-container h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased space between fields */
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Deeper input fields are easier to use */
+  border: 1px solid #ccc; /* A slightly softer border */
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box; /* Important for consistent sizing */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* --- NEW --- Provides clear feedback when a user clicks an input */
+input:focus {
+    border-color: #007BFF; /* A trustworthy blue highlight */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* The final "Submit" button */
+.book-btn {
+  /* A positive, confirming green for the final action */
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%; /* Make the button full-width for a clear next step */
+  transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+  /* Darker green on hover for clear feedback */
+  background-color: #218838;
+}
