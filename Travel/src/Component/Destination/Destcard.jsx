@@ -8,6 +8,7 @@ function Destcard(props){
             <h3>{props.Plsname}</h3>
             <p>{props.details}</p>
             <Link to="/Booking"><button>Book Now</button></Link>
+            <p>hi</p>
         </div>
         </>
     );
